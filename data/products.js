@@ -1,31 +1,33 @@
-// Edit this array to add, update or remove products. Prices are LKR. Keep IDs unique and stable.
+// Edit this array to add, update or remove products. This remains the ONLY product source.
+// No rebuild needed: product views, category links, metadata and structured data read this array.
+// Supplied prices are LKR guide prices; keep IDs and exact image paths stable.
 window.SP_PRODUCTS = [
   {
     "id": "apron-rexin",
-    "name": "Apron Rexin",
+    "name": "Rexin Apron",
     "category": "Body Protection",
     "price": 1500.0,
     "image": "images/products/Body Protection/2_Apron Rexin - 1500.jpg",
     "featured": false,
-    "description": "Apron Rexin from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Rexin apron from the body protection range. Ask about apron dimensions, fastening and cleaning instructions before selecting a size."
   },
   {
     "id": "safety-vest-v-shape",
-    "name": "Safety Vest V Shape",
+    "name": "V-Shape Safety Vest",
     "category": "Body Protection",
     "price": 950.0,
     "image": "images/products/Body Protection/6_Safety Vest V shape - 950.jpg",
     "featured": true,
-    "description": "Safety Vest V Shape from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety vest with a V-shape design. Ask about available sizes, colours and the visibility details of the supplied vest."
   },
   {
     "id": "chemical-resistant-coverall",
-    "name": "Chemical Resistant Coverall",
+    "name": "Chemical-Resistant Coverall",
     "category": "Body Protection",
     "price": 12500.0,
     "image": "images/products/Body Protection/CHEMICAL RESISTANT COVERALL - 12500.webp",
     "featured": false,
-    "description": "Chemical Resistant Coverall from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Coverall described in the supplied listing as chemical-resistant. Confirm the material, chemical compatibility and supporting documentation for your intended task."
   },
   {
     "id": "cool-room-freezer-jacket",
@@ -34,25 +36,25 @@ window.SP_PRODUCTS = [
     "price": 9000.0,
     "image": "images/products/Body Protection/cool room freezer jacket - 9000.webp",
     "featured": false,
-    "description": "Cool Room Freezer Jacket from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Jacket listed for cool room and freezer clothing requirements. Ask for sizing, insulation details and the specified temperature range before use."
   },
   {
     "id": "cool-room-trouser",
-    "name": "Cool Room Trouser",
+    "name": "Cool Room Trousers",
     "category": "Body Protection",
     "price": 5350.0,
     "image": "images/products/Body Protection/COOL ROOM TROUSER - 5350.webp",
     "featured": false,
-    "description": "Cool Room Trouser from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Trousers from the cool room clothing range. Ask for sizes, fabric details and temperature suitability when putting together your workwear selection."
   },
   {
     "id": "dark-blue-cotton-mechanic-coverall-two-piece-workwear-s-xxl",
-    "name": "Dark Blue Cotton Mechanic Coverall Two Piece Workwear (S Xxl)",
+    "name": "Dark Blue Cotton Mechanic Coverall - Two-Piece Workwear (S-XXL)",
     "category": "Body Protection",
     "price": 4500.0,
     "image": "images/products/Body Protection/Dark Blue Cotton Mechanic Coverall – Two‑Piece Workwear (S–XXL) - 4500.webp",
     "featured": false,
-    "description": "Dark Blue Cotton Mechanic Coverall Two Piece Workwear (S Xxl) from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Dark blue cotton mechanic workwear listed as a two-piece set in sizes S-XXL. Confirm the size chart and which sizes can be supplied."
   },
   {
     "id": "genuine-leather-apron",
@@ -61,16 +63,16 @@ window.SP_PRODUCTS = [
     "price": 15500.0,
     "image": "images/products/Body Protection/GENUINE LEATHER APRON - 15500.webp",
     "featured": false,
-    "description": "Genuine Leather Apron from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Apron identified in the product list as genuine leather. Ask about its dimensions, leather thickness and fastening arrangement."
   },
   {
     "id": "high-visibility-orange-safety-coverall-reflective-industrial-workwear",
-    "name": "High Visibility Orange Safety Coverall Reflective Industrial Workwear",
+    "name": "High-Visibility Orange Safety Coverall - Reflective Workwear",
     "category": "Body Protection",
     "price": 4000.0,
     "image": "images/products/Body Protection/High‑Visibility Orange Safety Coverall – Reflective Industrial Workwear - 4000.PNG",
     "featured": false,
-    "description": "High Visibility Orange Safety Coverall Reflective Industrial Workwear from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Orange coverall described as high-visibility workwear with reflective detailing. Confirm the fit, fabric and any applicable visibility documentation with the supplier."
   },
   {
     "id": "lab-coat",
@@ -79,115 +81,115 @@ window.SP_PRODUCTS = [
     "price": 4000.0,
     "image": "images/products/Body Protection/LAB-COAT - 4000.webp",
     "featured": false,
-    "description": "Lab Coat from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Lab coat from the body protection collection. Ask about fabric, coat length, fastening style and available sizes."
   },
   {
     "id": "orange-green-blue-safety-jacket-without-pocket",
-    "name": "Orange Green Blue Safety Jacket Without Pocket",
+    "name": "Safety Jacket Without Pockets - Orange, Green or Blue",
     "category": "Body Protection",
     "price": 900.0,
     "image": "images/products/Body Protection/orange green blue Safety jacket wo pocket - 900.jpg",
     "featured": false,
-    "description": "Orange Green Blue Safety Jacket Without Pocket from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety jacket listed without pockets, with orange, green and blue mentioned in the source name. Confirm the colour and size required when enquiring."
   },
   {
     "id": "safety-jacket-mesh",
-    "name": "Safety Jacket Mesh",
+    "name": "Mesh Safety Jacket",
     "category": "Body Protection",
     "price": 550.0,
     "image": "images/products/Body Protection/Safety jacket Mesh - 550.PNG",
     "featured": false,
-    "description": "Safety Jacket Mesh from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Mesh-style safety jacket. Ask about its available colours, sizes and fastening before adding it to your team clothing order."
   },
   {
     "id": "safety-jacket-pocket",
-    "name": "Safety Jacket Pocket",
+    "name": "Safety Jacket with Pockets",
     "category": "Body Protection",
     "price": 1250.0,
     "image": "images/products/Body Protection/SAFETY-JACKET-POCKET - 1250.webp",
     "featured": false,
-    "description": "Safety Jacket Pocket from our body protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety jacket identified as the pocket version. Ask about pocket layout, available colours and sizing."
   },
   {
     "id": "ear-plugs-with-cord",
-    "name": "Ear Plugs With Cord",
+    "name": "Ear Plugs with Cord",
     "category": "Ear Protection",
     "price": 185.0,
     "image": "images/products/Ear Protection/117_ear_plugs_with_cord - 185.jpg",
     "featured": true,
-    "description": "Ear Plugs With Cord from our ear protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Corded ear plugs from the hearing protection range. Confirm the plug material, reuse instructions and documented noise attenuation before selection."
   },
   {
     "id": "3m-peltor-optime-105-earmuff",
-    "name": "3M PELTOR Optime™ 105 Earmuff",
+    "name": "3M PELTOR OPTIME 105 Earmuff",
     "category": "Ear Protection",
     "price": 3500.0,
     "image": "images/products/Ear Protection/3M PELTOR OPTIME™ 105 Earmuff - 3500.webp",
     "featured": false,
-    "description": "3M PELTOR Optime™ 105 Earmuff from our ear protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Earmuff listed under the 3M PELTOR OPTIME 105 name. Confirm the exact model, fitting style and attenuation documentation before purchase."
   },
   {
     "id": "professional-hearing-protection-earmuffs",
-    "name": "Professional Hearing Protection Earmuffs",
+    "name": "Hearing Protection Earmuffs",
     "category": "Ear Protection",
     "price": 2900.0,
     "image": "images/products/Ear Protection/Professional Hearing Protection Earmuffs - 2900.webp",
     "featured": false,
-    "description": "Professional Hearing Protection Earmuffs from our ear protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Earmuffs from the ear protection collection. Ask about the fit, adjustment and measured noise attenuation for the model supplied."
   },
   {
     "id": "10-m-fall-arrester-retractable-lifeline-safety-device-for-working-at-heights",
-    "name": "10 M Fall Arrester Retractable Lifeline Safety Device For Working At Heights",
+    "name": "10 m Retractable Fall Arrester",
     "category": "Emergency Protection",
     "price": 28500.0,
     "image": "images/products/Emergency Protection/10 M Fall Arrester – Retractable Lifeline Safety Device for Working at Heights 28500.png",
     "featured": false,
-    "description": "10 M Fall Arrester Retractable Lifeline Safety Device For Working At Heights from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Retractable fall arrester identified with a 10 m length. Request the exact model, connector details, inspection requirements and compatibility documentation before selection."
   },
   {
     "id": "2-in-1-emergency-glass-break-hammer-with-cutter",
-    "name": "2 In 1 Emergency Glass Break Hammer With Cutter",
+    "name": "2-in-1 Emergency Glass-Break Hammer with Cutter",
     "category": "Emergency Protection",
     "price": 2500.0,
     "image": "images/products/Emergency Protection/2 IN 1 EMERGENCY GLASS BREAK HAMMER WITH CUTTER - 2500.webp",
     "featured": false,
-    "description": "2 In 1 Emergency Glass Break Hammer With Cutter from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Two-in-one emergency tool combining a glass-break hammer and a cutter. Ask about mounting options and the intended applications for the supplied model."
   },
   {
     "id": "30w-led-rechargeable-flashlight-ms-427-high-power-portable-light-with-lithium-battery",
-    "name": "30W LED Rechargeable Flashlight Ms 427 High Power Portable Light With Lithium Battery",
+    "name": "MS-427 30W Rechargeable LED Flashlight",
     "category": "Emergency Protection",
     "price": 6000.0,
     "image": "images/products/Emergency Protection/30W LED Rechargeable Flashlight MS‑427 – High‑Power Portable Light with Lithium Battery - 6000.webp",
     "featured": false,
-    "description": "30W LED Rechargeable Flashlight Ms 427 High Power Portable Light With Lithium Battery from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Rechargeable LED flashlight identified as MS-427, with 30W and a lithium battery stated in the source name. Confirm battery specifications, charging accessories and runtime."
   },
   {
     "id": "70l-spill-kit-wheel-cart",
-    "name": "70L Spill Kit Wheel Cart",
+    "name": "70 L Spill Kit Wheel Cart",
     "category": "Emergency Protection",
     "price": 80000.0,
     "image": "images/products/Emergency Protection/70L Spill kit wheel cart - 80000.PNG",
     "featured": false,
-    "description": "70L Spill Kit Wheel Cart from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Spill kit listed with a 70 L wheel cart. Ask for a contents list, the types of spills covered and replacement consumables."
   },
   {
     "id": "cycg-digital-food-thermometer-instant-read-cooking-probe-for-soups-bbq-meat-and-kitchen-use",
-    "name": "CYCG Digital Food Thermometer Instant Read Cooking Probe For Soups, BBQ Meat, And Kitchen Use",
+    "name": "CYCG Digital Food Thermometer - Instant-Read Probe",
     "category": "Emergency Protection",
     "price": 2300.0,
     "image": "images/products/Emergency Protection/CYCG Digital Food Thermometer – Instant Read Cooking Probe for Soups, BBQ Meat, and Kitchen Use - 2300.png",
     "featured": false,
-    "description": "CYCG Digital Food Thermometer Instant Read Cooking Probe For Soups, BBQ Meat, And Kitchen Use from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "CYCG digital probe thermometer listed for food and cooking measurements. Confirm the measurement range, accuracy, response time and cleaning instructions."
   },
   {
     "id": "easy-fold-plain-stretcher",
-    "name": "Easy Fold Plain Stretcher",
+    "name": "Easy-Fold Plain Stretcher",
     "category": "Emergency Protection",
     "price": 34000.0,
     "image": "images/products/Emergency Protection/EASY FOLD PLAIN STRETCHER - 34000.webp",
     "featured": false,
-    "description": "Easy Fold Plain Stretcher from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Plain stretcher listed with an easy-fold design. Confirm folded dimensions, load rating and handling instructions before ordering."
   },
   {
     "id": "portable-eyewash-station",
@@ -196,7 +198,7 @@ window.SP_PRODUCTS = [
     "price": 60000.0,
     "image": "images/products/Emergency Protection/portable eye eash station - 60000.webp",
     "featured": false,
-    "description": "Portable Eyewash Station from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Portable eyewash station from the emergency protection range. Ask about capacity, mounting, refilling and maintenance requirements."
   },
   {
     "id": "rotary-warning-light",
@@ -205,16 +207,16 @@ window.SP_PRODUCTS = [
     "price": 5000.0,
     "image": "images/products/Emergency Protection/ROTARY WARNING LIGHT - 5000.webp",
     "featured": false,
-    "description": "Rotary Warning Light from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Rotary-style warning light. Confirm the supply voltage, light colour and mounting arrangement for the model supplied."
   },
   {
     "id": "safety-belt-with-double-d-ring",
-    "name": "Safety Belt With Double D Ring",
+    "name": "Safety Belt with Double D-Ring",
     "category": "Emergency Protection",
     "price": 2150.0,
     "image": "images/products/Emergency Protection/SAFETY BELT WITH DOUBLE D-RING - 2150.png",
     "featured": false,
-    "description": "Safety Belt With Double D Ring from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety belt described with double D-rings. Confirm its intended function, sizing and compatible equipment; do not assume it replaces a fall-arrest harness."
   },
   {
     "id": "sp-safety-first-aid-box",
@@ -223,169 +225,169 @@ window.SP_PRODUCTS = [
     "price": 2500.0,
     "image": "images/products/Emergency Protection/SP Safety First Aid Box - 2500.png",
     "featured": true,
-    "description": "SP Safety First Aid Box from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "SP Safety first aid box from the emergency supplies range. Ask whether the quoted item includes contents and request the supplied kit list."
   },
   {
     "id": "spill-kit-in-high-visibility-bag-15ltr",
-    "name": "Spill Kit In High Visibility Bag 15Ltr",
+    "name": "15 L Spill Kit in High-Visibility Bag",
     "category": "Emergency Protection",
     "price": 25000.0,
     "image": "images/products/Emergency Protection/SPILL KIT IN HIGH-VISIBILITY BAG 15ltr - 25000.webp",
     "featured": false,
-    "description": "Spill Kit In High Visibility Bag 15Ltr from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Spill kit listed in a high-visibility bag with a 15 L designation. Request the included absorbents, spill compatibility and replenishment details."
   },
   {
     "id": "stainless-steel-emergency-eyewash-shower",
-    "name": "Stainless Steel Emergency Eyewash & Shower",
+    "name": "Stainless Steel Emergency Eyewash and Shower",
     "category": "Emergency Protection",
     "price": 190500.0,
     "image": "images/products/Emergency Protection/STAINLESS STEEL EMERGENCY EYEWASH & SHOWER - 190500.webp",
     "featured": false,
-    "description": "Stainless Steel Emergency Eyewash & Shower from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Combined emergency eyewash and shower described as stainless steel. Confirm plumbing requirements, installation dimensions and maintenance instructions."
   },
   {
     "id": "worksafe-wsfcr200-steel-cable-retractor",
-    "name": "WORKSAFE® Wsfcr200 Steel Cable Retractor",
+    "name": "WORKSAFE WSFCR200 Steel Cable Retractor",
     "category": "Emergency Protection",
     "price": 176500.0,
     "image": "images/products/Emergency Protection/WORKSAFE® WSFCR200 STEEL CABLE RETRACTOR - 176500.webp",
     "featured": false,
-    "description": "WORKSAFE® Wsfcr200 Steel Cable Retractor from our emergency protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Steel cable retractor identified as WORKSAFE WSFCR200. Ask for the manufacturer specification sheet, cable length, connectors and inspection requirements."
   },
   {
     "id": "3m-gb14866-2006-protective-goggle",
-    "name": "3M Gb14866 2006 Protective Goggle",
+    "name": "3M Protective Goggle - GB14866-2006 Listing",
     "category": "Eye Protection",
     "price": 1550.0,
     "image": "images/products/Eye Protection/3M GB14866-2006 PROTECTIVE GOGGLE - 1550.webp",
     "featured": false,
-    "description": "3M Gb14866 2006 Protective Goggle from our eye protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Protective goggle listed with the 3M name and GB14866-2006 reference. Confirm the actual model and documentation; the reference alone is not proof of certification."
   },
   {
     "id": "emergency-eye-wash-bottle",
-    "name": "Emergency Eye Wash Bottle",
+    "name": "Emergency Eyewash Bottle",
     "category": "Eye Protection",
     "price": 2000.0,
     "image": "images/products/Eye Protection/EMERGENCY EYE WASH BOTTLE 2000.webp",
     "featured": false,
-    "description": "Emergency Eye Wash Bottle from our eye protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Bottle from the emergency eyewash range. Ask about capacity, whether solution is included and any expiry or replacement requirements."
   },
   {
     "id": "vaultex-uv-protection-safety-spectacle-v300",
-    "name": "VAULTEX UV Protection Safety Spectacle V300",
+    "name": "VAULTEX V300 UV Protection Safety Spectacles",
     "category": "Eye Protection",
     "price": 1250.0,
     "image": "images/products/Eye Protection/VAULTEX UV Protection Safety Spectacle V300 - 1250.webp",
     "featured": false,
-    "description": "VAULTEX UV Protection Safety Spectacle V300 from our eye protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety spectacles listed as VAULTEX V300 with UV protection in the product name. Confirm lens options, fit and supporting protection documentation."
   },
   {
     "id": "100ltr-water-fire-extinguishers",
-    "name": "100Ltr Water Fire Extinguishers",
+    "name": "100 L Water Fire Extinguisher",
     "category": "Fire Protection",
     "price": 269750.0,
     "image": "images/products/Fire Protection/100ltr-water-fire-extinguishers - 269750.webp",
     "featured": false,
-    "description": "100Ltr Water Fire Extinguishers from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Water fire extinguisher listed with a 100 L designation. Confirm its fire classification, supplied configuration and servicing requirements."
   },
   {
     "id": "1kg-dry-powder-fire-extinguisher",
-    "name": "1Kg Dry Powder Fire Extinguisher",
+    "name": "1 kg Dry Powder Fire Extinguisher",
     "category": "Fire Protection",
     "price": 5500.0,
     "image": "images/products/Fire Protection/1KG Dry Powder Fire Extinguisher - 5500.webp",
     "featured": true,
-    "description": "1Kg Dry Powder Fire Extinguisher from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Dry powder fire extinguisher with a listed 1 kg size. Ask about the documented fire rating, mounting accessories and service arrangements."
   },
   {
     "id": "2kg-co-fire-extinguisher",
-    "name": "2Kg CO₂ Fire Extinguisher",
+    "name": "2 kg CO2 Fire Extinguisher",
     "category": "Fire Protection",
     "price": 13500.0,
     "image": "images/products/Fire Protection/2KG CO2 FIRE EXTINGUISHER - 13500.webp",
     "featured": false,
-    "description": "2Kg CO₂ Fire Extinguisher from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "CO2 fire extinguisher with a listed 2 kg size. Confirm its fire rating, supplied accessories and inspection requirements."
   },
   {
     "id": "2kg-dry-powder-fire-extinguisher",
-    "name": "2Kg Dry Powder Fire Extinguisher",
+    "name": "2 kg Dry Powder Fire Extinguisher",
     "category": "Fire Protection",
     "price": 8150.0,
     "image": "images/products/Fire Protection/2KG Dry Powder Fire Extinguisher - 8150.webp",
     "featured": false,
-    "description": "2Kg Dry Powder Fire Extinguisher from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Dry powder fire extinguisher listed at 2 kg. Ask which fire rating and mounting arrangement apply to the unit supplied."
   },
   {
     "id": "3kg-co-fire-extinguisher",
-    "name": "3Kg CO₂ Fire Extinguisher",
+    "name": "3 kg CO2 Fire Extinguisher",
     "category": "Fire Protection",
     "price": 15500.0,
     "image": "images/products/Fire Protection/3KG CO2 FIRE EXTINGUISHER - 15500.jpg",
     "featured": false,
-    "description": "3Kg CO₂ Fire Extinguisher from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "CO2 fire extinguisher with a listed 3 kg size. Ask about installation space, fire rating and maintenance arrangements."
   },
   {
     "id": "3kg-dry-powder-fire-extinguisher",
-    "name": "3Kg Dry Powder Fire Extinguisher",
+    "name": "3 kg Dry Powder Fire Extinguisher",
     "category": "Fire Protection",
     "price": 9500.0,
     "image": "images/products/Fire Protection/3KG Dry Powder Fire Extinguisher - 9500.webp",
     "featured": false,
-    "description": "3Kg Dry Powder Fire Extinguisher from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Dry powder fire extinguisher listed at 3 kg. Confirm the extinguisher rating, discharge instructions and included accessories."
   },
   {
     "id": "45-kg-fire-extinguisher-trolley",
-    "name": "45 Kg Fire Extinguisher Trolley",
+    "name": "45 kg Fire Extinguisher Trolley",
     "category": "Fire Protection",
     "price": 168500.0,
     "image": "images/products/Fire Protection/45 KG Fire extinguisher trolley - 168500.jpg",
     "featured": false,
-    "description": "45 Kg Fire Extinguisher Trolley from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Fire extinguisher trolley listed with a 45 kg designation. Confirm the extinguishing agent, configuration and servicing requirements; these are not specified in the source name."
   },
   {
     "id": "5kg-dry-powder-fire-extinguisher",
-    "name": "5Kg Dry Powder Fire Extinguisher",
+    "name": "5 kg Dry Powder Fire Extinguisher",
     "category": "Fire Protection",
     "price": 11000.0,
     "image": "images/products/Fire Protection/5KG Dry Powder Fire Extinguisher - 11000.webp",
     "featured": false,
-    "description": "5Kg Dry Powder Fire Extinguisher from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Dry powder fire extinguisher with a listed 5 kg size. Ask for its fire rating, bracket details and servicing instructions."
   },
   {
     "id": "5kg-to-6kg-dry-powder-fire-extinguisher-bracket",
-    "name": "5Kg To 6Kg Dry Powder Fire Extinguisher Bracket",
+    "name": "Bracket for 5-6 kg Dry Powder Fire Extinguisher",
     "category": "Fire Protection",
     "price": 750.0,
     "image": "images/products/Fire Protection/5KG TO 6KG DRY POWDER FIRE EXTINGUISHER BRACKET - 750.webp",
     "featured": false,
-    "description": "5Kg To 6Kg Dry Powder Fire Extinguisher Bracket from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Bracket listed for 5-6 kg dry powder fire extinguishers. Confirm compatibility with your extinguisher dimensions and the required fixing method."
   },
   {
     "id": "6kg-dry-powder-fire-extinguisher",
-    "name": "6Kg Dry Powder Fire Extinguisher",
+    "name": "6 kg Dry Powder Fire Extinguisher",
     "category": "Fire Protection",
     "price": 13700.0,
     "image": "images/products/Fire Protection/6KG Dry Powder Fire Extinguisher - 13700.webp",
     "featured": false,
-    "description": "6Kg Dry Powder Fire Extinguisher from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Dry powder fire extinguisher listed at 6 kg. Confirm the documented fire rating, supplied mount and inspection schedule."
   },
   {
     "id": "9kg-dry-powder-fire-extinguisher",
-    "name": "9Kg Dry Powder Fire Extinguisher",
+    "name": "9 kg Dry Powder Fire Extinguisher",
     "category": "Fire Protection",
     "price": 16400.0,
     "image": "images/products/Fire Protection/9KG Dry Powder Fire Extinguisher - 16400.webp",
     "featured": false,
-    "description": "9Kg Dry Powder Fire Extinguisher from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Dry powder fire extinguisher with a listed 9 kg size. Ask about the fire rating, installation requirements and service support."
   },
   {
     "id": "break-glass-for-key",
-    "name": "Break Glass For Key",
+    "name": "Break-Glass Key Box",
     "category": "Fire Protection",
     "price": 4990.0,
     "image": "images/products/Fire Protection/Break Glass For Key - 4990.webp",
     "featured": false,
-    "description": "Break Glass For Key from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Break-glass item identified in the source as being for a key. Confirm the enclosure dimensions, mounting and replacement glass details."
   },
   {
     "id": "fire-extinguisher-stand",
@@ -394,43 +396,43 @@ window.SP_PRODUCTS = [
     "price": 15000.0,
     "image": "images/products/Fire Protection/FIRE-EXTINGUISHER-STAND - 15000.webp",
     "featured": false,
-    "description": "Fire Extinguisher Stand from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Stand from the fire extinguisher accessory range. Ask how many units it holds and which extinguisher sizes fit."
   },
   {
     "id": "potric-photoelectronic-smoke-alarm-pt98a-smart-fire-safety-sensor",
-    "name": "Potric Photoelectronic Smoke Alarm Pt98A Smart Fire Safety Sensor",
+    "name": "Potric PT98A Photoelectronic Smoke Alarm",
     "category": "Fire Protection",
     "price": 12500.0,
     "image": "images/products/Fire Protection/Potric Photoelectronic Smoke Alarm PT98A – Smart Fire Safety Sensor - 12500.webp",
     "featured": false,
-    "description": "Potric Photoelectronic Smoke Alarm Pt98A Smart Fire Safety Sensor from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Photoelectronic smoke alarm identified as Potric PT98A. Confirm the power supply, installation instructions and supported alarm functions."
   },
   {
     "id": "wall-mountable-fire-blanket",
-    "name": "Wall Mountable Fire Blanket",
+    "name": "Wall-Mountable Fire Blanket",
     "category": "Fire Protection",
     "price": 5000.0,
     "image": "images/products/Fire Protection/Wall mountable fire blanket - 5000.webp",
     "featured": false,
-    "description": "Wall Mountable Fire Blanket from our fire protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Fire blanket listed in a wall-mountable format. Confirm blanket dimensions, enclosure contents and the supplied use instructions."
   },
   {
     "id": "3w-aiko-super-as-612-rechargeable-led-headlamp",
-    "name": "3W AIKO Super As 612 Rechargeable LED Headlamp",
+    "name": "AIKO Super AS-612 3W Rechargeable LED Headlamp",
     "category": "Head Protection",
     "price": 2400.0,
     "image": "images/products/Head Protection/3W AIKO Super AS-612 Rechargeable LED Headlamp - 2400.jpg",
     "featured": false,
-    "description": "3W AIKO Super As 612 Rechargeable LED Headlamp from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Rechargeable LED headlamp identified as AIKO Super AS-612 with a 3W designation. Ask about charging accessories, beam settings and runtime."
   },
   {
     "id": "auto-darkening-welding-helmet",
-    "name": "Auto Darkening Welding Helmet",
+    "name": "Auto-Darkening Welding Helmet",
     "category": "Head Protection",
     "price": 8000.0,
     "image": "images/products/Head Protection/AUTO-DARKING-WELDING-HELMET - 8000.webp",
     "featured": false,
-    "description": "Auto Darkening Welding Helmet from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Welding helmet described as auto-darkening. Confirm the shade range, lens dimensions and suitability for your welding process."
   },
   {
     "id": "chin-guard",
@@ -439,16 +441,16 @@ window.SP_PRODUCTS = [
     "price": 80.0,
     "image": "images/products/Head Protection/chin guard - 80.webp",
     "featured": false,
-    "description": "Chin Guard from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Chin guard from the head protection accessory range. Confirm the compatible equipment, fitting method and material before ordering."
   },
   {
     "id": "disposable-head-cap-100-pcs",
-    "name": "Disposable Head Cap 100 Pcs",
+    "name": "Disposable Head Caps - 100 Pieces",
     "category": "Head Protection",
     "price": 800.0,
     "image": "images/products/Head Protection/disposable head cap  - 100 pcs - 800.jpg",
     "featured": false,
-    "description": "Disposable Head Cap 100 Pcs from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Disposable head caps listed as a 100-piece pack. Ask about size, material, colour and pack availability."
   },
   {
     "id": "hard-safety-cap",
@@ -457,7 +459,7 @@ window.SP_PRODUCTS = [
     "price": 4000.0,
     "image": "images/products/Head Protection/Hard Safety Cap - 4000.jpg",
     "featured": false,
-    "description": "Hard Safety Cap from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Hard safety cap from the head protection collection. Confirm its construction and intended protection; do not assume the same rating as a safety helmet."
   },
   {
     "id": "safety-helmet",
@@ -466,34 +468,34 @@ window.SP_PRODUCTS = [
     "price": 649.0,
     "image": "images/products/Head Protection/Safety Helmet - 649.jpg",
     "featured": true,
-    "description": "Safety Helmet from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety helmet from the head protection range. Ask about shell material, suspension, available colours and the documented standard for the supplied model."
   },
   {
     "id": "safety-helmet-with-ratchet",
-    "name": "Safety Helmet With Ratchet",
+    "name": "Safety Helmet with Ratchet Adjustment",
     "category": "Head Protection",
     "price": 1849.0,
     "image": "images/products/Head Protection/Safety Helmet with Rachet - 1849.jpg",
     "featured": true,
-    "description": "Safety Helmet With Ratchet from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety helmet listed with ratchet adjustment. Confirm the adjustment range, suspension details and compatible accessories."
   },
   {
     "id": "safety-helmet-with-visor-full",
-    "name": "Safety Helmet With Visor (Full)",
+    "name": "Safety Helmet with Full Visor",
     "category": "Head Protection",
     "price": 2499.0,
     "image": "images/products/Head Protection/Safety Helmet with visor (full) - 2499.jpg",
     "featured": true,
-    "description": "Safety Helmet With Visor (Full) from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety helmet listed with a full visor. Ask about visor material, coverage and whether the helmet and visor are supplied together."
   },
   {
     "id": "safety-helmet-with-visor-half",
-    "name": "Safety Helmet With Visor (Half)",
+    "name": "Safety Helmet with Half Visor",
     "category": "Head Protection",
     "price": 1650.0,
     "image": "images/products/Head Protection/Safety Helmet with visor (half) - 1650.jpg",
     "featured": true,
-    "description": "Safety Helmet With Visor (Half) from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety helmet listed with a half visor. Confirm the visor configuration, fit and supporting protection documentation."
   },
   {
     "id": "welding-hand-shield",
@@ -502,7 +504,7 @@ window.SP_PRODUCTS = [
     "price": 1699.0,
     "image": "images/products/Head Protection/Welding Hand Shield - 1699.jpg",
     "featured": false,
-    "description": "Welding Hand Shield from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Hand shield from the welding protection range. Ask about its viewing window, lens shade and whether the lens is included."
   },
   {
     "id": "welding-head-shield",
@@ -511,43 +513,43 @@ window.SP_PRODUCTS = [
     "price": 2200.0,
     "image": "images/products/Head Protection/welding-head-shield - 2200.jpg",
     "featured": false,
-    "description": "Welding Head Shield from our head protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Head shield from the welding protection collection. Confirm the headgear adjustment, viewing dimensions and supplied lens shade."
   },
   {
     "id": "disposable-shoe-cover-100pcs",
-    "name": "Disposable Shoe Cover 100Pcs",
+    "name": "Disposable Shoe Covers - 100 Pieces",
     "category": "Leg Protection",
     "price": 800.0,
     "image": "images/products/Leg Protection/disposable shoe cover 100pcs - 800.webp",
     "featured": false,
-    "description": "Disposable Shoe Cover 100Pcs from our leg protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Disposable shoe covers listed as a 100-piece pack. Confirm size, material and the pack contents before ordering."
   },
   {
     "id": "safety-shoe-rocklander",
-    "name": "Safety Shoe ROCKLANDER",
+    "name": "ROCKLANDER Safety Shoe",
     "category": "Leg Protection",
     "price": 6500.0,
     "image": "images/products/Leg Protection/SAFETY SHOE – ROCKLANDER - 6500.webp",
     "featured": false,
-    "description": "Safety Shoe ROCKLANDER from our leg protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety shoe listed under the ROCKLANDER name. Ask for the exact model, available sizes and documented toe, sole and slip protection details."
   },
   {
     "id": "steel-toe-pvc-gum-boot-black",
-    "name": "Steel Toe PVC Gum Boot (Black)",
+    "name": "Black Steel-Toe PVC Gum Boot",
     "category": "Leg Protection",
     "price": 3799.0,
     "image": "images/products/Leg Protection/Steel Toe PVC Gum Boot (Black) - 3799.jpg",
     "featured": false,
-    "description": "Steel Toe PVC Gum Boot (Black) from our leg protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Black PVC gum boot described with a steel toe. Confirm boot height, sizing and the protection documentation for the model supplied."
   },
   {
     "id": "steel-toe-pvc-gum-boot-yellow",
-    "name": "Steel Toe PVC Gum Boot (Yellow)",
+    "name": "Yellow Steel-Toe PVC Gum Boot",
     "category": "Leg Protection",
     "price": 3799.0,
     "image": "images/products/Leg Protection/Steel Toe PVC Gum Boot (Yellow) - 3799.jpg",
     "featured": false,
-    "description": "Steel Toe PVC Gum Boot (Yellow) from our leg protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Yellow PVC gum boot described with a steel toe. Ask about available sizes, boot height and the documented protection features."
   },
   {
     "id": "white-pvc-gum-boot",
@@ -556,7 +558,7 @@ window.SP_PRODUCTS = [
     "price": 4000.0,
     "image": "images/products/Leg Protection/WHITE-PVC-GUM-BOOT - 4000.webp",
     "featured": false,
-    "description": "White PVC Gum Boot from our leg protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "White PVC gum boot from the leg protection range. Confirm size and sole details; a protective toe is not specified in the source name."
   },
   {
     "id": "lifebuoy-ring",
@@ -565,43 +567,43 @@ window.SP_PRODUCTS = [
     "price": 9000.0,
     "image": "images/products/Marine Protection/LIFEBUOY RING - 9000.webp",
     "featured": false,
-    "description": "Lifebuoy Ring from our marine protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Lifebuoy ring from the marine protection range. Confirm dimensions, supplied rope or accessories and applicable documentation."
   },
   {
     "id": "yamaha-tourist-life-jacket-imported-high-buoyancy-polyethylene-foam-vest-for-water-rescue-boating",
-    "name": "Yamaha Tourist Life Jacket (Imported) High Buoyancy Polyethylene Foam Vest For Water Rescue & Boating",
+    "name": "Yamaha Tourist Life Jacket - Polyethylene Foam Vest",
     "category": "Marine Protection",
     "price": 5250.0,
     "image": "images/products/Marine Protection/YAMAHA TOURIST LIFE JACKET (IMPORTED) - High Buoyancy Polyethylene Foam Vest for Water Rescue & Boating - 5250.webp",
     "featured": false,
-    "description": "Yamaha Tourist Life Jacket (Imported) High Buoyancy Polyethylene Foam Vest For Water Rescue & Boating from our marine protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Life jacket listed under the Yamaha name and described with polyethylene foam. Confirm size, buoyancy rating and suitability for the intended wearer and activity."
   },
   {
     "id": "30m-high-visibility-reflective-tape-honeycomb-pattern-diamond-cut",
-    "name": "30M High Visibility Reflective Tape Honeycomb Pattern Diamond Cut",
+    "name": "30 m Reflective Tape - Honeycomb Diamond-Cut Pattern",
     "category": "Miscellaneous",
     "price": 5150.0,
     "image": "images/products/Miscelleneous/30m High Visibility Reflective Tape – Honeycomb Pattern Diamond cut - 5150.webp",
     "featured": false,
-    "description": "30M High Visibility Reflective Tape Honeycomb Pattern Diamond Cut from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Reflective tape listed with a 30 m length and honeycomb diamond-cut pattern. Confirm tape width, colour and application surface requirements."
   },
   {
     "id": "aiko-as-525-10w-rechargeable-led-torch",
-    "name": "AIKO As 525 10W Rechargeable LED Torch",
+    "name": "AIKO AS-525 10W Rechargeable LED Torch",
     "category": "Miscellaneous",
     "price": 3150.0,
     "image": "images/products/Miscelleneous/AIKO AS-525 – 10W Rechargeable LED Torch - 3150.webp",
     "featured": false,
-    "description": "AIKO As 525 10W Rechargeable LED Torch from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Rechargeable LED torch identified as AIKO AS-525 with a 10W designation. Ask about battery details, charging equipment and runtime."
   },
   {
     "id": "akko-star-electric-insect-killer-30w-indoor-mosquito-fly-trap-lamp",
-    "name": "Akko Star Electric Insect Killer 30W Indoor Mosquito & Fly Trap Lamp",
+    "name": "AKKO STAR 30W Electric Insect Killer",
     "category": "Miscellaneous",
     "price": 9750.0,
     "image": "images/products/Miscelleneous/AKKO STAR Electric Insect Killer 30W – Indoor Mosquito & Fly Trap Lamp - 9750.webp",
     "featured": false,
-    "description": "Akko Star Electric Insect Killer 30W Indoor Mosquito & Fly Trap Lamp from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "AKKO STAR electric insect killer listed at 30W for indoor mosquito and fly trapping. Confirm supply voltage, installation requirements and consumable replacements."
   },
   {
     "id": "clever-carry-belt",
@@ -610,88 +612,88 @@ window.SP_PRODUCTS = [
     "price": 1650.0,
     "image": "images/products/Miscelleneous/clever carry belt - 1650.jpg",
     "featured": false,
-    "description": "Clever Carry Belt from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Carry belt identified in the list as Clever Carry Belt. Ask about belt dimensions, intended carrying method and documented load limits."
   },
   {
     "id": "customized-floor-sign-board",
-    "name": "Customized Floor Sign Board",
+    "name": "Customised Floor Sign Board",
     "category": "Miscellaneous",
     "price": 2650.0,
     "image": "images/products/Miscelleneous/customized floor sign board - 2650.webp",
     "featured": false,
-    "description": "Customized Floor Sign Board from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Floor sign board listed as customisable. Confirm the wording, artwork, dimensions and production requirements for your sign."
   },
   {
     "id": "hand-sanitizer-5l",
-    "name": "Hand Sanitizer 5L",
+    "name": "Hand Sanitizer - 5 L",
     "category": "Miscellaneous",
     "price": 5100.0,
     "image": "images/products/Miscelleneous/hand sanitizer 5L - 5100.webp",
     "featured": false,
-    "description": "Hand Sanitizer 5L from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Hand sanitizer listed in a 5 L size. Ask for the formulation, label instructions, expiry information and product documentation."
   },
   {
     "id": "me-100l-black-wire-led-christmas-lights",
-    "name": "Me 100L Black Wire LED Christmas Lights",
+    "name": "ME 100L Black-Wire LED Christmas Lights",
     "category": "Miscellaneous",
     "price": 550.0,
     "image": "images/products/Miscelleneous/ME 100L Black Wire LED Christmas Lights - 550.webp",
     "featured": false,
-    "description": "Me 100L Black Wire LED Christmas Lights from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Black-wire LED Christmas lights with the ME 100L designation in the supplied name. Confirm the meaning of 100L, cable length, power requirements and use conditions."
   },
   {
     "id": "multicolor-golf-umbrella",
-    "name": "Multicolor Golf Umbrella",
+    "name": "Multicolour Golf Umbrella",
     "category": "Miscellaneous",
     "price": 3700.0,
     "image": "images/products/Miscelleneous/Multicolor Golf Umbrella - 3700.webp",
     "featured": false,
-    "description": "Multicolor Golf Umbrella from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Golf umbrella described as multicolour. Ask about canopy dimensions, colour combinations and handle details."
   },
   {
     "id": "outdoor-convex-mirrors-with-z-bracket",
-    "name": "Outdoor Convex Mirrors With Z Bracket",
+    "name": "Outdoor Convex Mirror with Z Bracket",
     "category": "Miscellaneous",
     "price": 10750.0,
     "image": "images/products/Miscelleneous/OUTDOOR CONVEX MIRRORS WITH Z BRACKET - 10750.webp",
     "featured": false,
-    "description": "Outdoor Convex Mirrors With Z Bracket from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Outdoor convex mirror listed with a Z bracket. Confirm mirror diameter, bracket contents and fixing requirements."
   },
   {
     "id": "portable-vehicle-under-inspection-mirror",
-    "name": "Portable Vehicle Under Inspection Mirror",
+    "name": "Portable Vehicle Inspection Mirror",
     "category": "Miscellaneous",
     "price": 16150.0,
     "image": "images/products/Miscelleneous/PORTABLE VEHICLE UNDER INSPECTION MIRROR - 16150.webp",
     "featured": false,
-    "description": "Portable Vehicle Under Inspection Mirror from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Portable mirror listed for vehicle inspection. Confirm mirror size, handle reach and whether lighting is included."
   },
   {
     "id": "safety-net-5m",
-    "name": "Safety Net 5M",
+    "name": "Safety Net - 5 m Listing",
     "category": "Miscellaneous",
     "price": 3100.0,
     "image": "images/products/Miscelleneous/safety net 5M - 3100.webp",
     "featured": false,
-    "description": "Safety Net 5M from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety net carrying a 5 m designation in the source list. Confirm complete dimensions, mesh details, intended use and any load or fall-protection documentation."
   },
   {
     "id": "led-emergency-lamp-rechargeable-emergency-light-twin-spot-10w-2x5w-home-office-shop-led-emergency-lamp",
-    "name": "LED Emergency Lamp Rechargeable Emergency Light Twin Spot 10W 2X5W Home Office Shop LED Emergency Lamp",
+    "name": "10W Rechargeable Twin-Spot LED Emergency Lamp (2 x 5W)",
     "category": "Miscellaneous",
     "price": 12500.0,
     "image": "images/products/Miscelleneous/Screenshot-2025-08-28-at-16-45-39-LED-Emergency-Lamp-Rechargeable-Emergency-Light-Twin-Spot-10W-2x5W-Home-Office-Shop-LED-Emergency-Lamp - 12500.webp",
     "featured": false,
-    "description": "LED Emergency Lamp Rechargeable Emergency Light Twin Spot 10W 2X5W Home Office Shop LED Emergency Lamp from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Rechargeable twin-spot LED emergency lamp listed at 10W, with two 5W lights. Ask about battery runtime, charging method and installation options."
   },
   {
     "id": "waterproof-leg-cover-reusable-bandage-protector-for-shower-bath-1-piece",
-    "name": "Waterproof Leg Cover Reusable Bandage Protector For Shower & Bath 1 Piece",
+    "name": "Waterproof Leg Cover - Reusable Bandage Protector, 1 Piece",
     "category": "Miscellaneous",
     "price": 5550.0,
     "image": "images/products/Miscelleneous/Waterproof Leg Cover – Reusable Bandage Protector for Shower & Bath  1 Piece - 5550.webp",
     "featured": false,
-    "description": "Waterproof Leg Cover Reusable Bandage Protector For Shower & Bath 1 Piece from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Reusable leg cover described as a waterproof bandage protector for shower and bath use, listed as one piece. Confirm size, seal instructions and usage limitations."
   },
   {
     "id": "windsock",
@@ -700,16 +702,16 @@ window.SP_PRODUCTS = [
     "price": 5750.0,
     "image": "images/products/Miscelleneous/WINDSOCK - 5750.webp",
     "featured": false,
-    "description": "Windsock from our miscellaneous range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Windsock from the miscellaneous equipment range. Confirm its length, opening diameter, material and mounting accessories."
   },
   {
     "id": "3-ply-earloop-disposable-face-mask-100pcs",
-    "name": "3 Ply Earloop Disposable Face Mask 100Pcs",
+    "name": "3-Ply Earloop Disposable Face Masks - 100 Pieces",
     "category": "Respiratory Protection",
     "price": 1000.0,
     "image": "images/products/Respiratory Protection/3 ply Earloop Disposable Face Mask 100pcs - 1000.webp",
     "featured": false,
-    "description": "3 Ply Earloop Disposable Face Mask 100Pcs from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Disposable earloop face masks listed as 3-ply in a 100-piece pack. Confirm the supplied model and documentation; no medical or respirator certification is specified."
   },
   {
     "id": "3m-2091-particulate-filter",
@@ -718,97 +720,97 @@ window.SP_PRODUCTS = [
     "price": 1850.0,
     "image": "images/products/Respiratory Protection/3M 2091 Particulate Filter - 1850.webp",
     "featured": false,
-    "description": "3M 2091 Particulate Filter from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Particulate filter listed as 3M 2091. Confirm the genuine product model, pack quantity and compatibility with your respirator."
   },
   {
     "id": "3m-3200-single-cartridge-half-mask-with-cartridge",
-    "name": "3M 3200 Single Cartridge Half Mask With Cartridge",
+    "name": "3M 3200 Half-Mask Respirator with Cartridge",
     "category": "Respiratory Protection",
     "price": 6350.0,
     "image": "images/products/Respiratory Protection/3M 3200 Single Cartridge Half-Mask With Cartridge - 6350.webp",
     "featured": false,
-    "description": "3M 3200 Single Cartridge Half Mask With Cartridge from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Half-mask respirator listed as 3M 3200 with a single cartridge. Confirm the included cartridge type, fit and suitability for the intended exposure."
   },
   {
     "id": "3m-6200-series-half-mask-respirator-with-3m6006-multi-gas-vapor-cartridge",
-    "name": "3M 6200 Series Half Mask Respirator With 3M6006 Multi Gas Vapor Cartridge",
+    "name": "3M 6200 Half-Mask Respirator with 6006 Cartridge",
     "category": "Respiratory Protection",
     "price": 8250.0,
     "image": "images/products/Respiratory Protection/3M 6200 Series Half Mask Respirator With 3M6006 Multi Gas Vapor Cartridge - 8250.webp",
     "featured": false,
-    "description": "3M 6200 Series Half Mask Respirator With 3M6006 Multi Gas Vapor Cartridge from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "3M 6200 series half-mask respirator listed with a 6006 multi-gas/vapour cartridge. Confirm the included components, fit and exposure suitability before use."
   },
   {
     "id": "3m-tm-6800-full-face-mask-with-cartridge",
-    "name": "3M(Tm) 6800 Full Face Mask With Cartridge",
+    "name": "3M 6800 Full-Face Mask with Cartridge",
     "category": "Respiratory Protection",
     "price": 25750.0,
     "image": "images/products/Respiratory Protection/3M(tm) 6800 Full Face Mask With Cartridge - 25750.webp",
     "featured": false,
-    "description": "3M(Tm) 6800 Full Face Mask With Cartridge from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Full-face mask listed as 3M 6800 with a cartridge. Ask which cartridge is included and confirm sizing, fit and application requirements."
   },
   {
     "id": "3m-filter-retainer-501",
-    "name": "3M™ Filter Retainer 501",
+    "name": "3M 501 Filter Retainer",
     "category": "Respiratory Protection",
     "price": 1650.0,
     "image": "images/products/Respiratory Protection/3M™ Filter Retainer 501 - 1650.webp",
     "featured": false,
-    "description": "3M™ Filter Retainer 501 from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Filter retainer identified as 3M 501. Confirm compatibility with your cartridge and filter combination and the number supplied."
   },
   {
     "id": "3m-multi-gas-vapor-cartridge-6006",
-    "name": "3M™ Multi Gas Vapor Cartridge 6006",
+    "name": "3M 6006 Multi-Gas/Vapour Cartridge",
     "category": "Respiratory Protection",
     "price": 5250.0,
     "image": "images/products/Respiratory Protection/3M™ Multi Gas Vapor Cartridge 6006 - 5250.jpg",
     "featured": false,
-    "description": "3M™ Multi Gas Vapor Cartridge 6006 from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Multi-gas/vapour cartridge listed as 3M 6006. Confirm compatible respirators, pack contents and the manufacturer guidance for the intended exposure."
   },
   {
     "id": "3m-organic-vapor-acid-gas-cartridge-6003",
-    "name": "3M™ Organic Vapor Acid Gas Cartridge 6003",
+    "name": "3M 6003 Organic Vapour/Acid Gas Cartridge",
     "category": "Respiratory Protection",
     "price": 4950.0,
     "image": "images/products/Respiratory Protection/3M™ Organic Vapor Acid Gas Cartridge 6003 - 4950.webp",
     "featured": false,
-    "description": "3M™ Organic Vapor Acid Gas Cartridge 6003 from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Organic vapour/acid gas cartridge identified as 3M 6003. Confirm the cartridge specification, compatible facepiece and replacement guidance."
   },
   {
     "id": "3m-organic-vapor-cartridge-6001",
-    "name": "3M™ Organic Vapor Cartridge 6001",
+    "name": "3M 6001 Organic Vapour Cartridge",
     "category": "Respiratory Protection",
     "price": 2850.0,
     "image": "images/products/Respiratory Protection/3M™ Organic Vapor Cartridge 6001 - 2850.PNG",
     "featured": false,
-    "description": "3M™ Organic Vapor Cartridge 6001 from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Organic vapour cartridge listed as 3M 6001. Ask about compatible respirators, pack quantity and the manufacturer selection guidance."
   },
   {
     "id": "3m-particulate-filter-5n11",
-    "name": "3M™ Particulate Filter 5N11",
+    "name": "3M 5N11 Particulate Filter",
     "category": "Respiratory Protection",
     "price": 1400.0,
     "image": "images/products/Respiratory Protection/3M™ Particulate Filter 5N11 - 1400.webp",
     "featured": false,
-    "description": "3M™ Particulate Filter 5N11 from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Particulate filter identified as 3M 5N11. Confirm the required retainer, compatible respirator arrangement and pack quantity."
   },
   {
     "id": "np306-double-respiratory-with-dust-cartridge",
-    "name": "Np306 Double Respiratory With Dust Cartridge",
+    "name": "NP306 Respirator with Dust Cartridge",
     "category": "Respiratory Protection",
     "price": 2600.0,
     "image": "images/products/Respiratory Protection/NP306 Double Respiratory With Dust Cartridge - 2600.webp",
     "featured": false,
-    "description": "Np306 Double Respiratory With Dust Cartridge from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Respirator listed as NP306 with a dust cartridge. Confirm the facepiece configuration, included filters and documented protection before selection."
   },
   {
     "id": "np306-dust-cartridge",
-    "name": "Np306 Dust Cartridge",
+    "name": "NP306 Dust Cartridge",
     "category": "Respiratory Protection",
     "price": 600.0,
     "image": "images/products/Respiratory Protection/NP306 Dust Cartridge - 600.webp",
     "featured": false,
-    "description": "Np306 Dust Cartridge from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Dust cartridge listed for the NP306 range. Confirm the compatible facepiece, cartridge specification and replacement instructions."
   },
   {
     "id": "powecom-3600-gas-mask",
@@ -817,16 +819,16 @@ window.SP_PRODUCTS = [
     "price": 3250.0,
     "image": "images/products/Respiratory Protection/POWECOM-3600 Gas Mask - 3250.webp",
     "featured": false,
-    "description": "POWECOM 3600 Gas Mask from our respiratory protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Gas mask identified in the source as POWECOM 3600. Ask for the exact facepiece and filter combination and confirm suitability for the intended exposure."
   },
   {
     "id": "plastic-chain-safety-barrier-plastic-links-82-foot",
-    "name": "Plastic Chain Safety Barrier Plastic Links 82 Foot",
+    "name": "Plastic Chain Safety Barrier - 82 ft",
     "category": "Road Protection",
     "price": 4150.0,
     "image": "images/products/Road Protection/PLASTIC CHAIN SAFETY BARRIER PLASTIC LINKS 82 FOOT - 4150.webp",
     "featured": false,
-    "description": "Plastic Chain Safety Barrier Plastic Links 82 Foot from our road protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Plastic-link safety barrier chain listed with an 82 ft length. Confirm the link dimensions, colour and whether posts or connectors are included."
   },
   {
     "id": "solar-flashing-warning-light",
@@ -835,16 +837,16 @@ window.SP_PRODUCTS = [
     "price": 4750.0,
     "image": "images/products/Road Protection/SOLAR FLASHING WARNING LIGHT - 4750.webp",
     "featured": false,
-    "description": "Solar Flashing Warning Light from our road protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Warning light described as solar-powered with a flashing function. Confirm mounting, light colour, charging conditions and operating time."
   },
   {
     "id": "stop-go-blinking-light-signage-bo",
-    "name": "Stop & Go Blinking Light Signage (Bo)",
+    "name": "STOP and GO Blinking Light Signage (BO)",
     "category": "Road Protection",
     "price": 5100.0,
     "image": "images/products/Road Protection/STOP & GO BLINKING LIGHT SIGNAGE (BO) - 5100.webp",
     "featured": false,
-    "description": "Stop & Go Blinking Light Signage (Bo) from our road protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Blinking light signage carrying STOP and GO wording and a BO designation. Confirm the sign format, dimensions and power requirements."
   },
   {
     "id": "traffic-road-cone",
@@ -853,7 +855,7 @@ window.SP_PRODUCTS = [
     "price": 3500.0,
     "image": "images/products/Road Protection/traffic road cone - 3500.jpg",
     "featured": false,
-    "description": "Traffic Road Cone from our road protection range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Traffic cone from the road protection collection. Ask about cone height, base dimensions, colour and reflective features."
   },
   {
     "id": "danger-electricity-sign",
@@ -862,16 +864,16 @@ window.SP_PRODUCTS = [
     "price": 2100.0,
     "image": "images/products/Signs & Boards/DANGER ELECTRICITY SIGN - 2100.webp",
     "featured": false,
-    "description": "Danger Electricity Sign from our signs & boards range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety sign carrying Danger Electricity wording. Confirm the sign dimensions, material and mounting requirements for your location."
   },
   {
     "id": "danger-men-at-work-safety-sign",
-    "name": "Danger Men At Work Safety Sign",
+    "name": "Danger Men at Work Sign",
     "category": "Signs & Boards",
     "price": 2100.0,
     "image": "images/products/Signs & Boards/DANGER MEN AT WORK SAFETY SIGN - 2100.webp",
     "featured": false,
-    "description": "Danger Men At Work Safety Sign from our signs & boards range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety sign carrying Danger Men at Work wording. Ask about size, material and whether a stand or fixing accessories are included."
   },
   {
     "id": "fire-assembly-point-sign",
@@ -880,7 +882,7 @@ window.SP_PRODUCTS = [
     "price": 3150.0,
     "image": "images/products/Signs & Boards/FIRE-ASSEMBLY-POINT-SIGN - 3150.webp",
     "featured": false,
-    "description": "Fire Assembly Point Sign from our signs & boards range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Sign identifying a fire assembly point. Confirm dimensions, material and the layout required for your designated assembly location."
   },
   {
     "id": "fire-extinguisher-sign",
@@ -889,7 +891,7 @@ window.SP_PRODUCTS = [
     "price": 1200.0,
     "image": "images/products/Signs & Boards/FIRE-EXTINGUISHER-SIGN - 1200.webp",
     "featured": false,
-    "description": "Fire Extinguisher Sign from our signs & boards range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Sign identifying a fire extinguisher location. Ask about size, material and mounting for your intended placement."
   },
   {
     "id": "no-smoking-sign",
@@ -898,7 +900,7 @@ window.SP_PRODUCTS = [
     "price": 750.0,
     "image": "images/products/Signs & Boards/NO-SMOKING-SIGN - 750.webp",
     "featured": false,
-    "description": "No Smoking Sign from our signs & boards range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety sign with No Smoking wording. Confirm dimensions, material and the required fixing method."
   },
   {
     "id": "warehouse-safety-sign",
@@ -907,6 +909,6 @@ window.SP_PRODUCTS = [
     "price": 3000.0,
     "image": "images/products/Signs & Boards/WAREHOUSE SAFETY SIGN - 3000.webp",
     "featured": false,
-    "description": "Warehouse Safety Sign from our signs & boards range. Contact SP Safety to confirm specifications, available options and suitability for your requirements."
+    "description": "Safety sign from the warehouse range. Confirm the exact wording, symbols, size and material before production or supply."
   }
 ];

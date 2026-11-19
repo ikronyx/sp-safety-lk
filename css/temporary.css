@@ -1,0 +1,5 @@
+/* Original visual styling retained; the catalogue is now a simple, full-width grid. */
+.temporary-catalog{display:block;margin-top:30px}.temporary-catalog>section{width:100%}.temporary-catalog .shop-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.temporary-catalog .shop-photo img{height:230px}.temporary-catalog .shop-card h3{margin-bottom:18px}.temporary-catalog .card-bottom{margin-top:auto}.shop-photo{cursor:default}.shop-card h3{cursor:default}.temporary-catalog .seo-catalog-heading{font-size:23px;margin-bottom:25px;letter-spacing:-.025em}
+@media(max-width:1100px){.temporary-catalog .shop-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:800px){.temporary-catalog .shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.temporary-catalog .shop-photo img{height:190px}}
+@media(max-width:380px){.temporary-catalog .shop-grid{grid-template-columns:minmax(0,1fr)}}
